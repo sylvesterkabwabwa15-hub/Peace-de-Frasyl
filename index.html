@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Welcome to My Website 🎵</h1>
+    <br>
+    <p>Dzina langa ndi Peace</p>
+    <br>
+    <p>I am just learning how to create a web using my phone 📱</p>
+    <br>
+
+     <button onclick="playMusic()">Play music</button>
+    <br>
+    <h2> About me </h2>
+    <br>
+    <p id="nowPlaying">No song playing</p>
+    <br>
+    <p> I love music and I want to build my own music website 🎵</p>
+    <div class="upload-box">
+    <input type="file" id="upload" accept="audio/*">
+<br><br>
+<button onclick="uploadSong()">Upload & Play 🎵</button></div>
+    <h2>My Songs 🎵</h2>
+
+    <button onclick="playSong('Chamvu_singers.mp3')">Chamvu_singers.mp3</button>
+    <br><br>
+
+    <button onclick="playSong('Chipala.mp3')">Chipala.mp3</button>
+    <br><br>
+
+    <button onclick="playSong('Forever.mp3')">Forever.mp3</button>
+    <br><br>
+    
+    <button onclick="playSong('Captain Eraijah ft Argon J Wings- ndikupempha.mp3')">Captain Eraijah ft Argon J Wings- ndikupempha</button>
+    <button onclick="pauseSong()">Pause ⏸️</button>
+    <audio id="player"controls></audio>
+    <!-- Connect JavaScript -->
+    <script src="game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+  background-color: blue;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: #00ffcc;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+}
+audio {
+    display: block;
+    margin: 20px auto;
+}
+.upload-box {
+  margin-top: 20px;
+}
+
+#upload {
+  background: white;
+  padding: 12px;
+  border-radius: 20px;
+  Width: 80%;
+  text-align: center;
+}
+
+.upload-box button:hover {
+  background: darkmagenta;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
